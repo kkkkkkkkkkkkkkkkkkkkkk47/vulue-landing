@@ -7,6 +7,8 @@ export default function LoginSelectionDesktop() {
   const handleProductClick = (productTitle) => {
     if (productTitle === 'Silia') {
       window.open('https://silia-frontend-demo.netlify.app/', '_blank');
+    } else if (productTitle === 'TrailX') {
+      window.open('https://trailx-frontend.netlify.app/', '_blank');
     }
   };
 
@@ -52,7 +54,11 @@ export default function LoginSelectionDesktop() {
       </div>
 
       {/* Product 2 - TrailX */}
-      <div className="product-card-desktop product-card-2-desktop">
+      <div 
+        className="product-card-desktop product-card-2-desktop"
+        onClick={() => handleProductClick('TrailX')}
+        style={{ cursor: 'pointer' }}
+      >
         <div className="product-border-2-desktop" />
         <div className="product-image-desktop product-image-2-desktop">
           <img src="/images/product-2-selection.png" alt="TrailX" />

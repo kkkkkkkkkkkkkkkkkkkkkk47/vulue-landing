@@ -4,6 +4,8 @@ export default function LoginSelection() {
   const handleProductClick = (productTitle) => {
     if (productTitle === 'Silia') {
       window.open('https://silia-frontend-demo.netlify.app/', '_blank');
+    } else if (productTitle === 'TrailX') {
+      window.open('https://trailx-frontend.netlify.app/', '_blank');
     }
   };
 
@@ -53,7 +55,7 @@ export default function LoginSelection() {
             key={product.id} 
             className="product-card"
             onClick={() => handleProductClick(product.title)}
-            style={{ cursor: product.title === 'Silia' ? 'pointer' : 'default' }}
+            style={{ cursor: product.title === 'Silia' || product.title === 'TrailX' ? 'pointer' : 'default' }}
           >
             <div className="product-card-image">
               <img src={product.image} alt={product.title} />

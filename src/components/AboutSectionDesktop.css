@@ -1,0 +1,43 @@
+.about-section-desktop {
+  position: relative;
+  width: 100%;
+  max-width: 1448px;
+  height: 657px;
+  margin: 0 auto;
+}
+
+.about-heading-desktop {
+  position: absolute;
+  left: 40px;
+  top: 121px;
+  width: 219px;
+  height: 80px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #fff;
+  margin: 0;
+}
+
+.about-text-desktop {
+  position: absolute;
+  left: 30px;
+  top: 265px;
+  width: 1317px;
+  height: 372px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 34px;
+  color: #fff;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.about-text-bold {
+  font-weight: 900;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+  letter-spacing: 0.5px;
+}

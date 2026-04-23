@@ -1,0 +1,42 @@
+.about-section {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  height: 894px;
+  margin: 0 auto;
+  background-color: #091a96;
+  color: #fff;
+}
+
+.about-heading {
+  position: absolute;
+  left: 39px;
+  top: 104px;
+  width: 219px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.about-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 270px;
+  width: 335px;
+  height: 372px;
+  font-family: 'Anek Odia', sans-serif;
+  font-size: 24px;
+  line-height: 1.29;
+  font-variation-settings: 'wdth' 100;
+  white-space: pre-wrap;
+}
+
+.about-text-light {
+  font-weight: 300;
+}
+
+.about-text-bold {
+  font-weight: 700;
+}

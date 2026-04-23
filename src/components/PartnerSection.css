@@ -1,0 +1,134 @@
+.partner-section {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  height: 849px;
+  margin: 0 auto;
+  background-color: #010bcf;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide {
+  position: relative;
+  min-width: 100%;
+  height: 100%;
+}
+
+.full-background-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.full-background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.flower-pattern {
+  position: absolute;
+  left: -1px;
+  top: 352px;
+  width: 457px;
+  height: 457px;
+}
+
+.flower-pattern img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.partner-text {
+  position: absolute;
+  left: 34px;
+  top: 74px;
+  width: 304px;
+  color: #fff;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.partner-text-line1,
+.partner-text-line2,
+.partner-text-line3,
+.partner-text-line4 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 27px;
+  margin: 0;
+}
+
+.partner-text-equirra {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.partner-text-light {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 27px;
+}
+
+.partner-text-bold {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 27px;
+}
+
+.partner-link {
+  position: absolute;
+  left: 30px;
+  bottom: 100px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4169e1;
+  cursor: pointer;
+}
+
+.progress-indicators {
+  position: absolute;
+  left: 50%;
+  top: 271px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.progress-bar {
+  height: 4px;
+  border-radius: 40px;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.progress-bar-inactive {
+  width: 28px;
+  background-color: #00033c;
+  backdrop-filter: blur(5px);
+}
+
+.progress-bar-active {
+  width: 123px;
+  background-color: #fff;
+  backdrop-filter: blur(5px);
+  border: 0.1px solid #fff;
+}

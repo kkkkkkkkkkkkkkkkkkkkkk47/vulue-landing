@@ -1,0 +1,120 @@
+.footer-section-desktop {
+  position: relative;
+  width: 100%;
+  max-width: 1448px;
+  height: 539px;
+  margin: 0 auto;
+}
+
+.footer-disclaimer-desktop {
+  position: absolute;
+  left: 65px;
+  top: 76px;
+  width: 852px;
+  height: 120px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+  color: #fff;
+  margin: 0;
+}
+
+.footer-enquiries-heading-desktop {
+  position: absolute;
+  left: 1074px;
+  top: 76px;
+  width: 160px;
+  height: 27px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  color: #fff;
+  margin: 0;
+}
+
+.footer-contact-desktop {
+  position: absolute;
+  left: 1074px;
+  top: 129px;
+  width: 146px;
+  height: 23px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 23px;
+  color: #bcbbbb;
+  margin: 0;
+}
+
+.footer-social-x-desktop {
+  position: absolute;
+  left: 1074px;
+  top: 230px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.footer-social-x-desktop:hover {
+  opacity: 0.8;
+}
+
+.footer-social-linkedin-desktop {
+  position: absolute;
+  left: 1121px;
+  top: 230px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.footer-social-linkedin-desktop:hover {
+  opacity: 0.8;
+}
+
+.footer-logo-desktop {
+  position: absolute;
+  left: 54px;
+  top: 315px;
+  width: 53px;
+  height: 53px;
+}
+
+.footer-logo-desktop img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer-brand-name-desktop {
+  position: absolute;
+  left: 105px;
+  top: 323px;
+  width: 98px;
+  height: 33px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 46.08px;
+  color: #fff;
+  margin: 0;
+}
+
+.footer-copyright-desktop {
+  position: absolute;
+  left: 65px;
+  top: 414px;
+  width: 447px;
+  height: 23px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 23px;
+  color: #bcbbbb;
+  margin: 0;
+}

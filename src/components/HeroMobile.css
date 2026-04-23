@@ -1,0 +1,135 @@
+.hero-mobile {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  height: 849px;
+  margin: 0 auto;
+  background-color: #000;
+  background-image: url('/images/Hero fPage Mobile  Screen.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Decorative Lines - Hidden as they're outside the visible frame */
+.decorative-lines {
+  display: none;
+}
+
+/* Header */
+.logo {
+  position: absolute;
+  left: 28px;
+  top: 38px;
+  width: 53px;
+  height: 53px;
+  z-index: 10;
+}
+
+.logo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.brand-name {
+  position: absolute;
+  left: 80px;
+  top: 45px;
+  width: 98px;
+  height: 33px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+  line-height: 1.28;
+  color: #fff;
+  font-variation-settings: 'wdth' 100;
+  z-index: 10;
+}
+
+/* Main Content */
+.hero-title {
+  position: absolute;
+  left: 40px;
+  top: 329px;
+  width: 204px;
+  height: 294px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.1;
+  color: #fff;
+  font-variation-settings: 'wdth' 100;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.login-button-link {
+  position: absolute;
+  inset: 59.17% 49.21% 34.97% 9.3%;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.login-button {
+  position: absolute;
+  inset: 0;
+  background-color: #1511d1;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button-link:hover .login-button {
+  background-color: #1a15e8;
+}
+
+.login-button-link:active .login-button {
+  background-color: #0f0db0;
+}
+
+.login-text {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  font-variation-settings: 'wdth' 100;
+  pointer-events: none;
+}
+
+.login-text p {
+  line-height: 1;
+}
+
+/* Mobile-only view */
+@media (min-width: 431px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1a1a1a;
+    padding: 20px 0;
+  }
+  
+  .hero-mobile {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+}

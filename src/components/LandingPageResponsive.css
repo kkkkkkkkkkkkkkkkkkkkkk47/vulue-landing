@@ -1,0 +1,32 @@
+.partner-container-desktop {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.partner-container-desktop > * {
+  flex-shrink: 0;
+  min-width: 100%;
+  scroll-snap-align: start;
+}
+
+.partner-container-desktop > *:first-child {
+  background-color: #010bcf;
+}
+
+.partner-container-desktop > *:last-child {
+  background-color: #5b2280;
+}
+
+/* Hide scrollbar but keep functionality */
+.partner-container-desktop::-webkit-scrollbar {
+  display: none;
+}
+
+.partner-container-desktop {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

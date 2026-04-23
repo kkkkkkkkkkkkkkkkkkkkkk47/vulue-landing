@@ -1,0 +1,23 @@
+/* Responsive scaling for desktop sections */
+@media (max-width: 1448px) {
+  .hero-desktop,
+  .about-section-desktop,
+  .product-section-desktop,
+  .partner-section-desktop,
+  .partner-section-desktop-2,
+  .footer-section-desktop {
+    transform: scale(calc(100vw / 1448));
+    transform-origin: top center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-desktop,
+  .about-section-desktop,
+  .product-section-desktop,
+  .partner-section-desktop,
+  .partner-section-desktop-2,
+  .footer-section-desktop {
+    transform: none;
+  }
+}

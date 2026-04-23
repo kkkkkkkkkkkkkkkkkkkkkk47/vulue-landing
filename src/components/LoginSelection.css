@@ -1,0 +1,164 @@
+.login-selection {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  min-height: 2044px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+/* Header */
+.selection-header {
+  position: relative;
+  height: 120px;
+}
+
+.back-arrow {
+  position: absolute;
+  left: 36px;
+  top: 60px;
+  width: 32px;
+  height: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.back-arrow:hover {
+  opacity: 0.7;
+}
+
+.selection-logo {
+  position: absolute;
+  left: 231px;
+  top: 52px;
+  width: 53px;
+  height: 53px;
+}
+
+.selection-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.selection-brand-name {
+  position: absolute;
+  left: 283px;
+  top: 61px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 41px;
+  color: #fff;
+  font-variation-settings: 'wdth' 100;
+}
+
+/* Title */
+.selection-title {
+  position: absolute;
+  left: 36px;
+  top: 190px;
+  width: 263px;
+  height: 48px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 24px;
+  color: #a6a6a6;
+  font-variation-settings: 'wdth' 100;
+}
+
+/* Product Cards */
+.product-cards {
+  position: absolute;
+  top: 302px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.product-card {
+  position: relative;
+  width: 320px;
+  height: 535px;
+}
+
+.product-card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 320px;
+}
+
+.product-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-card-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 535px;
+  border: 1px solid #3c3f46;
+  border-radius: 0;
+  pointer-events: none;
+}
+
+.product-card-title {
+  position: absolute;
+  left: 8px;
+  top: 378px;
+  width: 154px;
+  height: 33px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  font-variation-settings: 'wdth' 100;
+  margin: 0;
+}
+
+.product-card:nth-child(2) .product-card-title {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  top: 343px;
+}
+
+.product-card-description {
+  position: absolute;
+  left: 8px;
+  top: 411px;
+  width: 300px;
+  height: 169px;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 15px;
+  color: #fff;
+  font-variation-settings: 'wdth' 100;
+  margin: 0;
+}
+
+.product-card:nth-child(2) .product-card-description {
+  width: 300px;
+  height: 90px;
+  top: 376px;
+}
+
+.product-card:nth-child(3) .product-card-title {
+  top: 343px;
+}
+
+.product-card:nth-child(3) .product-card-description {
+  width: 300px;
+  height: 169px;
+  top: 376px;
+}

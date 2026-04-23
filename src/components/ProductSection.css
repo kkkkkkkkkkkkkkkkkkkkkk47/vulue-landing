@@ -1,0 +1,144 @@
+.product-section {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  height: 1578px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.product-image-container {
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product-image-1 {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 35px;
+  width: 320px;
+  height: 320px;
+  border-top-left-radius: 70px;
+}
+
+.product-image-2 {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 355px;
+  width: 320px;
+  height: 320px;
+  border-radius: 0;
+}
+
+.product-image-2.pushed-down {
+  top: 560px;
+}
+
+.product-image-3 {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 675px;
+  width: 320px;
+  height: 320px;
+  border-radius: 0;
+}
+
+.product-image-3.pushed-down {
+  top: 880px;
+}
+
+.product-image-3.pushed-down-img2 {
+  top: 880px;
+}
+
+.product-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+}
+
+.product-text {
+  position: absolute;
+  left: 36px;
+  top: 1320px;
+  width: 154px;
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 1;
+  color: #0b0f11;
+  font-variation-settings: 'wdth' 100;
+  transform: translateY(-50%);
+  transition: top 0.3s ease;
+}
+
+.product-text.pushed-down {
+  top: 1450px;
+}
+
+.product-text p {
+  line-height: 1;
+}
+
+/* Expanded view styles */
+.product-expanded-border {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 515px;
+  border: 1px solid #3d3f47;
+  border-radius: 0;
+  pointer-events: none;
+  transition: top 0.3s ease;
+}
+
+.product-expanded-border.border-radius {
+  border-top-left-radius: 70px;
+}
+
+.product-expanded-title {
+  position: absolute;
+  left: 48px;
+  width: 154px;
+  height: 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.28;
+  color: #000;
+  transform: translateY(-50%);
+  transition: top 0.3s ease;
+}
+
+.product-expanded-description {
+  position: absolute;
+  left: 48px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Anek Odia', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 1;
+  color: #000;
+  font-variation-settings: 'wdth' 100;
+  transform: translateY(-50%);
+  transition: top 0.3s ease;
+}

@@ -4,6 +4,12 @@ import './LoginSelectionDesktop.css';
 export default function LoginSelectionDesktop() {
   const navigate = useNavigate();
 
+  const handleProductClick = (productTitle) => {
+    if (productTitle === 'Silia') {
+      window.open('https://silia-frontend-demo.netlify.app/', '_blank');
+    }
+  };
+
   return (
     <div className="login-selection-desktop">
       {/* Back arrow */}
@@ -30,7 +36,11 @@ export default function LoginSelectionDesktop() {
       <h1 className="login-heading-desktop">Select from our flagship Software Suite.</h1>
 
       {/* Product 1 - Silia */}
-      <div className="product-card-desktop product-card-1-desktop">
+      <div 
+        className="product-card-desktop product-card-1-desktop"
+        onClick={() => handleProductClick('Silia')}
+        style={{ cursor: 'pointer' }}
+      >
         <div className="product-border-1-desktop" />
         <div className="product-image-desktop product-image-1-desktop">
           <img src="/images/product-1-selection.png" alt="Silia" />

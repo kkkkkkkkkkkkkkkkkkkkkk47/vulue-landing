@@ -1,6 +1,12 @@
 import './LoginSelection.css';
 
 export default function LoginSelection() {
+  const handleProductClick = (productTitle) => {
+    if (productTitle === 'Silia') {
+      window.open('https://silia-frontend-demo.netlify.app/', '_blank');
+    }
+  };
+
   const products = [
     {
       id: 1,
@@ -43,7 +49,12 @@ export default function LoginSelection() {
       {/* Product Cards */}
       <div className="product-cards">
         {products.map((product) => (
-          <div key={product.id} className="product-card">
+          <div 
+            key={product.id} 
+            className="product-card"
+            onClick={() => handleProductClick(product.title)}
+            style={{ cursor: product.title === 'Silia' ? 'pointer' : 'default' }}
+          >
             <div className="product-card-image">
               <img src={product.image} alt={product.title} />
             </div>
